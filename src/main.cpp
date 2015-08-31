@@ -1,15 +1,15 @@
 /*
-    This file is part of etherwall.
-    etherwall is free software: you can redistribute it and/or modify
+    This file is part of ShiftWallet.
+    ShiftWallet is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
-    etherwall is distributed in the hope that it will be useful,
+    ShiftWallet is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
     You should have received a copy of the GNU General Public License
-    along with etherwall. If not, see <http://www.gnu.org/licenses/>.
+    along with ShiftWallet. If not, see <http://www.gnu.org/licenses/>.
 */
 /** @file main.cpp
  * @author Ales Katona <almindor@gmail.com>
@@ -31,14 +31,14 @@
 #include "accountmodel.h"
 #include "transactionmodel.h"
 
-using namespace Etherwall;
+using namespace Etherdiene;
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
     QCoreApplication::setOrganizationName("Etherdiene");
-    QCoreApplication::setOrganizationDomain("etherwall.com");
+    QCoreApplication::setOrganizationDomain("etherdiene.com");
     QCoreApplication::setApplicationName("ShiftWallet");
     QCoreApplication::setApplicationVersion("0.9.1");
     app.setWindowIcon(QIcon(QPixmap(":/images/icon")));

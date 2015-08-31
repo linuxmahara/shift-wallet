@@ -5,7 +5,7 @@
 #include <QAbstractListModel>
 #include "types.h"
 
-namespace Etherwall {
+namespace Etherdiene {
 
     class EtherLog : public QAbstractListModel
     {

@@ -4,7 +4,7 @@
 #include <QApplication>
 #include <QClipboard>
 
-namespace Etherwall {
+namespace Etherdiene {
 
     static EtherLog* sLog = NULL;
 
