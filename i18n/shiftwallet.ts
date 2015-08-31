@@ -228,7 +228,7 @@
 <context>
     <name>main</name>
     <message>
-        <source>Etherdiene Ethereum Wallet</source>
+        <source>Shift Wallet, Powered by Etherdiene</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

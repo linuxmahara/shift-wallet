@@ -27,8 +27,8 @@
 #include <QJsonArray>
 #include <QJsonValue>
 #include "types.h"
-#include "etheripc.h"
-#include "etherlog.h"
+#include "shiftipc.h"
+#include "shiftlog.h"
 
 namespace Etherwall {
 

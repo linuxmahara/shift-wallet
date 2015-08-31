@@ -28,9 +28,9 @@
 #include <QNetworkRequest>
 #include <QNetworkReply>
 #include "types.h"
-#include "etheripc.h"
+#include "shiftipc.h"
 #include "accountmodel.h"
-#include "etherlog.h"
+#include "shiftlog.h"
 
 namespace Etherwall {
 

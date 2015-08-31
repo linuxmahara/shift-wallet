@@ -25,7 +25,7 @@
 #include <QIcon>
 #include <QPixmap>
 #include <QDebug>
-#include "etherlog.h"
+#include "shiftlog.h"
 #include "settings.h"
 #include "clipboard.h"
 #include "accountmodel.h"

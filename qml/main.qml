@@ -29,7 +29,7 @@ ApplicationWindow {
     height: 600
     minimumWidth: 800
     minimumHeight: 600
-    title: qsTr("Etherdiene Ethereum Wallet") + " " + Qt.application.version + ' [' + ipc.clientVersion + ']'
+    title: qsTr("Shift Wallet, Powered by Etherdiene") + " " + Qt.application.version + ' [' + ipc.clientVersion + ']'
 
     Timer {
         id: closeTimer

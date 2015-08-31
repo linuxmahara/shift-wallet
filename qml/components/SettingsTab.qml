@@ -83,13 +83,13 @@ Tab {
 
             Label {
                 id: argsLabel
-                text: "Geth args: "
+                text: "Shift args: "
             }
 
             TextField {
                 id: argsField
                 width: parent.width - argsButton.width - argsLabel.width
-                text: settings.value("/geth/args", "")
+                text: settings.value("/shift/args", "")
             }
 
             Button {
@@ -97,7 +97,7 @@ Tab {
                 text: qsTr("Set")
 
                 onClicked: {
-                    settings.setValue("/geth/args", argsField.text)
+                    settings.setValue("/shift/args", argsField.text)
                 }
             }
         }*/
