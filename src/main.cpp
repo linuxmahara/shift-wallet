@@ -39,12 +39,12 @@ int main(int argc, char *argv[])
 
     QCoreApplication::setOrganizationName("Etherdiene");
     QCoreApplication::setOrganizationDomain("etherwall.com");
-    QCoreApplication::setApplicationName("Etherwall");
+    QCoreApplication::setApplicationName("ShiftWallet");
     QCoreApplication::setApplicationVersion("0.9.1");
     app.setWindowIcon(QIcon(QPixmap(":/images/icon")));
 
     QTranslator translator;
-    translator.load("i18n/etherwall_" + QLocale::system().name());
+    translator.load("i18n/shiftwallet_" + QLocale::system().name());
     app.installTranslator(&translator);
 
     Settings settings;
@@ -72,7 +72,7 @@ int main(int argc, char *argv[])
 
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
 
-    log.log("Etherwall started");
+    log.log("ShiftWallet started");
 
     ipc.connectToServer(ipcPath);
 

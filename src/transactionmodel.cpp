@@ -291,7 +291,7 @@ namespace Etherwall {
 
     void TransactionModel::loadHistory() {
         // get historical transactions from etherdata
-        QNetworkRequest request(QUrl("http://data.etherwall.com/api/transactions"));
+        /*QNetworkRequest request(QUrl("http://data.etherwall.com/api/transactions"));
         request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
         QJsonObject objectJson;
         objectJson["accounts"] = fAccountModel.getAccountsJsonArray();
@@ -299,7 +299,7 @@ namespace Etherwall {
 
         EtherLog::logMsg("HTTP Post request: " + data, LS_Debug);
 
-        fNetManager.post(request, data);
+        fNetManager.post(request, data);*/
     }
 
     void TransactionModel::loadHistoryDone(QNetworkReply *reply) {
