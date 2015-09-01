@@ -281,7 +281,7 @@ Tab {
             TableViewColumn {
                 horizontalAlignment: Text.AlignRight
                 role: "value"
-                title: qsTr("Value (Ether)")
+                title: qsTr("Value (Shift)")
                 width: 150
             }
             TableViewColumn {

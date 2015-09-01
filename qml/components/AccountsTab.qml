@@ -113,7 +113,7 @@ Tab {
             TableViewColumn {
                 horizontalAlignment: Text.AlignRight
                 role: "balance"
-                title: qsTr("Balance (Ether)")
+                title: qsTr("Balance (Shift)")
                 width: 150
             }
             TableViewColumn {
